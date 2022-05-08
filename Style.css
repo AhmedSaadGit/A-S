@@ -3,5 +3,18 @@ body {
 }
 
 img {
-    width: 20%;
+    width: 200;
+}
+
+.browniesTypes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+
+}
+
+.BrownieNutella, .BrownieNature   {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
