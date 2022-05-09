@@ -11,7 +11,7 @@ img {display: flex ;
     width: 20%;}
     
 button{
-    display: flex ;  
+   
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around ;
@@ -20,6 +20,9 @@ button{
     width: max-content;
 } 
 
+.PS1 , .PS2 {
+    display: flex;
+}
 
 
 
