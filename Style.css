@@ -2,27 +2,33 @@ body {
     background-color: rgba(168, 120, 37, 0.664);
 }
 
-img {display: flex ;  
-    flex-direction: row;
-    flex-wrap:wrap;
-    justify-content: space-around ;
-    justify-content: center;
-    height: 20%;
-    width: 20%;}
     
-button{
-   
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around ;
-    justify-content: center;
-    height: max-content;
-    width: max-content;
-} 
-
-.PS1 , .PS2 {
-    display: flex;
+body {
+    
 }
+
+.PS1  {
+    display: flex;
+    justify-content: space-around;
+    margin: 3%;
+    
+}
+
+
+.PS2 {
+    display: flex; 
+    justify-content: space-around;
+    margin: 3%;
+    
+}
+
+.Browniesnature, .BrownieNutella , .BrownieQ , .BrowniesLight , .SSBrownies , .RainbowBrownies{
+display: grid;
+margin: 2%;
+
+}
+
+
 
 
 
