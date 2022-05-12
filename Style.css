@@ -2,30 +2,38 @@ body {
     background-color: rgba(168, 120, 37, 0.664);
 }
 
-    
-body {
-    
-}
 
-.PS1  {
-    display: flex;
+body{ 
+
+}
+        
+.PS1 {
+    display:flex;
     justify-content: space-around;
     margin: 3%;
     
 }
-
-
+    
 .PS2 {
-    display: flex; 
+    display:flex;
     justify-content: space-around;
     margin: 3%;
-    
 }
-
-.Browniesnature, .BrownieNutella , .BrownieQ , .BrowniesLight , .SSBrownies , .RainbowBrownies{
+button{
 display: grid;
+text-align: center;
+padding: 20px;
+font-size: x-large;
+border-radius: 10px;
+cursor: pointer;
 margin: 2%;
 
+}
+
+.Ingredients {
+    display: grid;
+    justify-content: flex-start;
+    margin: 3%;
 }
 
 
