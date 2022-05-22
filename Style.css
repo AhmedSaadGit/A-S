@@ -3,9 +3,6 @@ body {
 }
 
 
-body{ 
-
-}
         
 .PS1 {
     display:flex;
@@ -24,8 +21,6 @@ body{
      -o-transition: all 0.2s;
      transition: all 0.2s;
      margin: 3%;
-     border-left-color: aqua;
-     border-right-color: #263059;
      border-top-left-radius: 10px;
      border-top-right-radius: 20px;
      border-bottom-right-radius: 30px;
@@ -35,7 +30,27 @@ body{
 /* shorthand */
 border-radius: 10px 20px 30px 40px;
 box-shadow:8px 8px 10px 0 rgba(0, 0, 0, 0.5)
-
+}
+.PS1 img:hover{
+  width: 100%;
+   height:100%;
+   -webkit-transition: all 0.2s;
+   -moz-transition: all 0.2s;
+   -ms-transition: all 0.2s;
+   -o-transition: all 0.2s;
+   transition: all 0.2s;
+   margin: 3%;
+   border-left-color: aqua;
+   border-right-color: #263059;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 30px;
+   border-bottom-left-radius: 40px;
+   border-style: solid;
+   
+/* shorthand */
+border-radius: 10px 20px 30px 40px;
+box-shadow:8px 8px 10px 0 rgba(0, 0, 0, 0.5)
 }
     
 .PS2 {
