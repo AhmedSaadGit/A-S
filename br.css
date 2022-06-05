@@ -1,0 +1,51 @@
+body {
+    background-color: rgba(168, 120, 37, 0.664);
+}
+
+
+.Ingredients{
+    display:flex;
+     justify-content: space-around;
+     margin: 3%;
+     cursor: pointer;
+ }
+.Ingredients img {
+   width: 50%;
+   height: 50%;
+   -webkit-transition: all 0.2s;
+   -moz-transition: all 0.2s;
+   -ms-transition: all 0.2s;
+   -o-transition: all 0.2s;
+   transition: all 0.2s;
+   margin: 3%;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 30px;
+   border-bottom-left-radius: 40px;
+   border-radius: 50%;
+ 
+ /* shorthand */
+ border-radius: 10px 20px 30px 40px;
+ box-shadow:8px 8px 10px 0 rgba(0, 0, 0, 0.5)
+ }
+ 
+ .BrowniesNatureIngredients ,.BrowniesNutellaIng ,.BrowniesQuinoaIng {
+   border:none;
+   color: antiquewhite;
+   padding: 15px 32px;
+   text-align: center;
+   display: inline-block;
+   font-size: 16px;
+ }
+ 
+.Ingredients ul {
+    padding: 0;
+    margin: 0;
+    list-style-position: inside;
+}
+
+.Ingredients li{
+    width: 100%;
+    font-size: 14px;
+    list-style: disc;
+ } 

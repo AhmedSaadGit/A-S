@@ -70,8 +70,6 @@ box-shadow:8px 8px 10px 0 rgba(0, 0, 0, 0.5)
   -o-transition: all 0.2s;
   transition: all 0.2s;
   margin: 3%;
-  border-left-color: aqua;
-  border-right-color: #263059;
   border-top-left-radius: 10px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 30px;
@@ -84,9 +82,25 @@ box-shadow:8px 8px 10px 0 rgba(0, 0, 0, 0.5)
 
 }
 
-
-
-
+.PS2 img:hover {
+  width: 100%;
+  height:100%;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  margin: 3%;
+  border-left-color: aqua;
+  border-right-color: #263059;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 40px;
+  border-style: solid;
+ 
+}
+  
 .Browniesnature ,.BrownieNutella ,.BrownieQ {
     border:none;
     color: antiquewhite;
@@ -112,31 +126,45 @@ box-shadow:8px 8px 10px 0 rgba(0, 0, 0, 0.5)
 p{
     font-size: 2cm ;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;  
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    animation-duration: 3s;
+    animation-name: slidein;
+  
 
 }
 
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
 
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
  em {
-    font-size: 3cm;
+    font-size: 2cm;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: start;
     
 }
 
 .animated-border-button {
-    background-color :bisque;
-    border: none;
-    color: black;
-    outline: none;
-    padding: 12px 40px 10px;
-    position: relative;
-    cursor: pointer;
-    font-size: 0.5cm;
-  }
-
-.animated-border-button:before,
+  background-color :bisque;
+  border: none;
+  color: black;
+  outline: none;
+  padding: 12px 40px 10px;
+  position: relative;
+  cursor: pointer;
+  font-size: 0.5cm;
+  text-decoration-line: none;
+}
+    
+.animated-border-button:before,  
 .animated-border-button:after {
   border: 0 solid transparent;
   transition: all 0.3s;
@@ -147,15 +175,15 @@ p{
 }
 
 .animated-border-button:before {
-  border-top: 2px solid #263059;
+  border-top: 3px solid #263059;
   right: 0;
-  top: -4px;
+  top: -20px;
 }
 
 .animated-border-button:after {
-    border-bottom: 2px solid #263059;
-    bottom: -4px;
-    left: 0;
+  border-bottom: 3px solid #263059;
+  bottom: -4px;
+  left: 0;
   }
   
   .animated-border-button:hover:before,
@@ -165,17 +193,8 @@ p{
 
   *, *::before, *::after {
 	box-sizing: border-box;
+  margin-top: 20px;
 }
-
-.Ingredients {
-    display: grid;
-    justify-content: flex-start;
-    margin: 3%;
-}
-
-
-
-
 
 
 
